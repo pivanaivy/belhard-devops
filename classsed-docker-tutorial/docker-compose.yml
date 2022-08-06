@@ -12,6 +12,6 @@ services:
     volumes:
       - /home/data:/var/lib/postgresql/data
     volumes:
-      - /home/backup:/var/backup
+      - /tmp/backup:/tmp/backup
 volumes:
   data:
